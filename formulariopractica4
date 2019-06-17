@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> formulario</title>
+</head>
+<body>
+ <form action="formulario.php" method="."></form>
+<fieldset>
+	<legend class="text-centerheader">FORMULARIO</legend>
+	<label for="nombre y apellido"> nombre y apellido</label> <br>
+	<input type="nombreyapellido" name="nombreyapellido" id="nombreyapellido" placeholder="nombre y apellido"> <br>
+	<br>
+	<label for="usuario">usuario</label><br>
+	<input type="text" name="usuario" id="usuario" placeholder="usuario" maxlength="6"><br>
+	<br>
+	<label for="password">password</label><br>
+	<input type="password" name="password" id="password" placeholder="password" maxlength="8"><br>
+	<br>
+	<label for="genero">Genero</label> <br>
+	<br>
+	<label for="hombre">hombre</label>
+	<input type="radio" name="sexo"id="hombre" value="hombre">
+	<label for="mujer">mujer</label>
+	<input type="radio" name="sexo" id="mujer"value="mujer">
+	<br>
+	<br>
+	<label for="correo">correo</label><br>
+	<input type="text" name="correo" id="correo" placeholder="nombre_usuario@">
+	<br>
+	<br>
+	<label for="fechadenacimiento">fecha de nacimiento</label><br>
+	<input type="numero" name="fechadenacimiento" id="fechadenacimiento"placeholder="fecha de nacimiento"> <br><br>
+	<label for="notificaciones"> notificaciones</label> <br>
+	 oferta <input type="checkbox" name="opcion" value="oferta"><br>
+	 nuevas publicaciones<input type="checkbox" name="opcion" value="nuevaspublicaciones"><br>
+	 denuncias<input type="checkbox" name="opcion" value="denuncias"><br>
+	 comentarios<input type="checkbox" name="opcion" value="comentarios"><br>
+	 <br>
+	 <label for="adjuntarfoto"> adjuntar foto</label>
+	 <input type="file" name="img">
+	 <br>
+	 <br>
+	 <label for="categoriadeusuario">Categoria de usuario</label>
+<select>
+	<option value="uno">usuario abonado
+   </option>
+	</select>
+	<br>
+	<label for="soloparausuariosabanoados"> solo para usuarios abonados</label>
+	<fieldset>
+		<label for="numerodetarjeta">numero de tarjeta</label> <br> 
+		<input type="numero" name="numerodetarjeta" id="numerodetarjeta" placeholder="numero de tarjeta" maxlength="16"><br>
+		<label for="codigo">codigo</label><br>
+		<input type="numero" name="codigo" id="codigo" placeholder="codigo" maxlength="3"><br>
+
+	<label for="plan1">plan 1</label>
+	<input type="radio" name="plan1" id="plan1" value="plan1">
+	<label for="plan2">plan 2</label>
+	<input type="radio" name="plan2" id="plan2" value="plan2">
+	<label for="plan3"> plan 3</label>
+	<input type="radio" name="plan3"id="plan3"value="plan3">
+	<label for="plan4">plan 4</label>
+	<input type="radio" name="plan4" id="plan4" value="plan4"><br>
+	<label for="plan5"> plan 5</label>
+	<input type="radio" name="plan5"id="plan5"value="plan5">
+	<label for="plan6">plan 6</label>
+	<input type="radio" name="plan6" id="plan6" value="plan6">
+
+</fieldset>
+<label for="comentarios">comentarios</label>
+<textarea name="mensaje" placeholder="mensaje" maxlength="40 id="mensaje"></textarea>
+<br>
+<br>
+
+<button type="submit" class="">ENVIAR</button>
+	 <button type="submit" class="">LIMPIAR</button>
+
+</fieldset>
+</body>
+</html>
